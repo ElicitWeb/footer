@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="sb__footer-content" style={{backgroundImage: `url(${footerpng})`}}>
                     <><a href="#"><img src={elicit} className="elicit"/></a></>
                     <div className="credits">
-                        Developed by Ayush, Kunal, Lalit, Ayam and Siddharth
+                        Developed by Ayush, Kunal, Lalit and Siddharth
                     </div>
                     <div className="sb__footer-copyright">
                         <p>
@@ -44,16 +44,6 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                {/* <div className="sb__footer-png">
-                    <img src={footerpng}/>
-                </div> */}
-            {/* <div className="sb__footer-below">
-                <div className="sb__footer-copyright">
-                    <p>
-                        Copyright©
-                    </p>
-                </div>
-            </div> */}
             </div>
         </div>
     )
